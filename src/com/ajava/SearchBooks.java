@@ -61,6 +61,9 @@ public class SearchBooks extends HttpServlet {
 					else if(fieldName.equals("searchCategory")) {
 						searchCategory = item.getString();
 					}
+					else if(fieldName.equals("searchCategory")) {
+						searchCategory = item.getString();
+					}
 					else if(fieldName.equals("submit")) {
 						submit = Integer.parseInt(item.getString());
 						session = req.getSession();
