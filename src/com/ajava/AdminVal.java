@@ -38,6 +38,7 @@ public class AdminVal extends HttpServlet {
 		else if(log==1&& users.equals("admin")) {
 			RequestDispatcher dispatcher = req.getRequestDispatcher("admin.jsp");
 		dispatcher.forward(req, resp);
+		
        }
 		else if(log==1&& users.equals("user")) {
 			RequestDispatcher dispatcher = req.getRequestDispatcher("user.jsp");
